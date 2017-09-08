@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Testing</title>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7y1jOdFhtenfZZi1qwKygrVVe47uRidA&extension=.js"></script> 
+<script src="https://cdn.mapkit.io/v1/infobox.js"></script> 
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"> 
+<link href="https://cdn.mapkit.io/v1/infobox.css" rel="stylesheet" > 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script type="text/javascript" src="js/script.js"></script>
+
+<body id="body">
+<ul class="menu-main">
+  		<li><a href="index.html" >Головна</a></li>
+  		<li><a href="about.html">Про нас</a></li>
+  		<li><a href="products.html">Пропозиції</a></li>
+  		<li><a href="contacts.html" class="current">Контакти</a></li>
+</ul>
+<div id="menu" class="" >
+    <div class="menubtn" onclick="openNav()">&#9776; Menu</div>
+</div>
+<div class="number">
+      063&nbsp;288&nbsp;7759
+    </div>
+<div id="myNav" class="overlay">
+     	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       <div class="overlay-content">
+          <a href="index.html">Головна</a>
+          <a href="about.html">Про нас</a>
+          <a href="products.html">Пропозиції</a>
+          <a href="contacts.html">Контакти</a>
+       </div>
+</div>
+
+
+<p class="work-hour">Ми працюємо з понеділка по п'ятницю<br>з <strong>9:00</strong> до <strong>18:00</strong></p>
+
+<p class="form-header">Якщо у Вас виникли якісь запитання, заповніть цю форму <br> та натисніть "Надіслати":</p>
+            
+<form action="mailto:muxailo717@gmail.com">       
+  <div class="input-form">
+     <input type="text" name="text" id="name" required>
+     <label for="name">Введіть ваші ПІБ</label>
+  </div>
+  <div class="input-form">
+     <input type="text" name="text" id="mail" required>
+     <label for="mail">Ваш імейл</label>
+  </div>
+  <div class="input-form">
+     <input type="text" name="text" id="phone" required>
+     <label for="phone">Ваш номер телефону</label>
+  </div>  
+  <div class="text-form">
+     <textarea id="textarea-form" name="textarea" rows="3" required></textarea><label for="textarea-form">Напишіть все що вас цікавить!</label>
+  </div>
+  <div >
+     <button id="asking-button" type="submit">Надіслати</button>
+  </div>
+</form>
+
+<div class="contact-img">
+  <div class="first-contact-img">
+      <img src="img/3.png"><br>
+      <p class="contact-inf">м.Львів<br>Городоцька, 135а</p>
+  </div>
+  <div class="second-contact-img">
+      <img src="img/1.png"><br><p class="contact-inf1">muxailo717@gmail.com</p>
+  </div>
+  <div class="second-contact-img">
+      <img src="img/2.png"><br><p class="contact-inf1">063&nbsp;288&nbsp;7759</p>
+  </div>
+</div>
+<div id="mapkit-9082"></div>
+
+<footer class="footer">
+  <div class="footer-content">
+     &copy; <a href="index.html">ФОП Карпенко Ігор</a>&nbsp;-&nbsp;2017
+  </div>
+  <div class="footer-content2">
+      063&nbsp;288&nbsp;7759
+  </div>
+</footer>
+
+</body>
+</html>
